@@ -1,5 +1,7 @@
+# Core Pkgs
+import streamlit as st 
+import streamlit.components.v1 as stc 
 import spacy_streamlit
-import typer
 
 
 def main():
@@ -8,3 +10,9 @@ def main():
     spacy_streamlit.visualize(models, default_text, visualizers=["textcat"])
 
 
+
+
+
+
+if __name__ == '__main__':
+	main()
