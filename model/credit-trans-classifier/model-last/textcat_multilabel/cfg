@@ -1,0 +1,18 @@
+{
+  "labels":[
+    "Personal_Transfer",
+    "Investment_Payout",
+    "Other_Incoming_Payments_From_Employer",
+    "Cash_Deposit",
+    "Interest_Received",
+    "Salary",
+    "Cheque_Deposits",
+    "Returned_Debit",
+    "Unknown",
+    "Bills",
+    "Loans",
+    "Betting_Payout",
+    "Other_Incoming_payments"
+  ],
+  "threshold":0.5
+}
