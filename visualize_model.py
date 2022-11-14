@@ -21,7 +21,7 @@ def main():
 
     st.text("")
     models = ["model/credit-trans-classifier/model-best/", "model/debit-trans-classifier/model-best"]
-    default_text = "MTHLY SALARY via GAPS JUNE Salary from PIGGYTECH GLOBAL LIMITED to IFEZUE SOMTOCHUKWU DAVID REF: ,credit,82900000,2020-06-26T00:00:00Z"
+    default_text = "MTHLY SALARY via GAPS JUNE Salary from PIGGYTECH GLOBAL LIMITED to IFEZUE SOMTOCHUKWU DAVID REF"
     st.info(
     f"""
             💅🏻 To Understand more about Labels/Categories, Read this Notion Docs: [Here](https://www.notion.so/withmono/Transaction-Classifier-II-e56ad55f9ee14841a5650ffdfb727da6)
