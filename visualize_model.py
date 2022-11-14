@@ -1,13 +1,13 @@
 # Core Pkgs
 import streamlit as st 
 import streamlit.components.v1 as stc 
-import spacy_streamlit
+# import spacy_streamlit
 
 
 def main():
     models = ["model/credit-trans-classifier/model-best/", "model/debit-trans-classifier/model-best/"]
     default_text = "MTHLY SALARY via GAPS JUNE Salary from PIGGYTECH GLOBAL LIMITED to IFEZUE SOMTOCHUKWU DAVID REF: ,credit,82900000,2020-06-26T00:00:00Z"
-    spacy_streamlit.visualize(models, default_text, visualizers=["textcat"])
+    st.visualize(models, default_text, visualizers=["textcat"])
 
 
 
