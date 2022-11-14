@@ -1,5 +1,5 @@
-# import spacy_streamlit
-# import typer
+import spacy_streamlit
+import typer
 
 
 def main():
