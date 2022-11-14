@@ -1,4 +1,4 @@
-# import spacy_streamlit
+import spacy_streamlit
 import typer
 
 
