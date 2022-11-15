@@ -32,6 +32,10 @@ def main():
             """
     )
     sst.visualize(models, default_text, visualizers=["textcat"])
+    st.info(
+    f"""
+          🌚 PS: this is not the final product, this would be used to genetate labels to Enhance Feature Engineering in  another Model.
+    """)
 
 
 
