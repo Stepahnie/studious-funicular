@@ -7,7 +7,7 @@ import spacy_streamlit  as sst
 def main():
     st.set_page_config(page_title="Mono - Transaction Narration Labeler", page_icon="🤖")
 
-    st.title("👀 Mono - Transaction Narration Classifier")
+    st.title("👀 Mono - Transaction Narration Labeler")
     st.sidebar.title("👇 Select Transaction Model Type")
 
     st.write(
